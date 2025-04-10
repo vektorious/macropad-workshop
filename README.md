@@ -71,12 +71,12 @@ buttons = []
 for pin in pins:
     btn = digitalio.DigitalInOut(pin)
     btn.direction = digitalio.Direction.INPUT
-    btn.pull = digitalio.Pull.DOWN
+    btn.pull = digitalio.Pull.UP
     buttons.append(btn)
 
 while True:
     for i, btn in enumerate(buttons):
-        if btn.value:
+        if btn.value == False:
             print(f"Button {i+1} pressed")
     time.sleep(0.1)
 ```
