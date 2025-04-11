@@ -65,7 +65,7 @@ import board
 import digitalio
 import time
 
-pins = [board.GP6, board.GP8, board.GP11, board.GP7, board.GP10, board.GP12]
+pins = [board.GP6, board.GP7, board.GP8, board.GP10,  board.GP11, board.GP12]
 buttons = []
 
 for pin in pins:
