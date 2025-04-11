@@ -215,6 +215,22 @@ def handle_mode_press(mode, key):
 
 ---
 
+## Ideen für praktische Makros
+
+Hier ein paar Inspirationen, welche Programme sich gut für Makros eignen – besonders, wenn du regelmäßig dieselben Tastenkombinationen nutzt:
+
+- **VS Code**: Terminal öffnen, Formatieren, Debugging starten
+- **Git (CLI)**: Status prüfen, Branch wechseln, push/pull
+- **Microsoft Teams / Zoom**: Mikro stummschalten, Kamera ein-/ausschalten, Anruf beenden
+- **Bildbearbeitung (z.B. Photoshop)**: Rückgängig, Pinselwerkzeug, Auswahl aufheben
+- **OBS Studio**: Aufnahme starten, Szenen wechseln
+
+Du kannst für jeden Modus eigene Tastenkombinationen definieren – entweder durch direkte `Keycode`-Befehle oder durch `layout.write()`-Texteingaben für Terminalbefehle.
+
+Weitere Tastenkombinationen findest du z.B. auf [shortcutworld.com](https://shortcutworld.com) oder in den offiziellen Shortcut-Listen der Programme.
+
+---
+
 ## Lizenz
 
 Dieser Workshop basiert auf der Idee von 
