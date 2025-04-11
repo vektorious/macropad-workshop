@@ -57,7 +57,7 @@ Kopiere den folgenden Code in die Datei "code.py" auf deinem RPi Pico in Thonny 
 
 ### Schritt 3: Buttons anschließen und testen
 
-**GPIOs für Buttons (in diesem Projekt):** GP6, GP8, GP11, GP7, GP10, GP12
+**GPIOs für Buttons (in diesem Projekt):** GP6, GP7, GP8, GP10, GP11, GP12
 
 **Testcode:**
 ```python
